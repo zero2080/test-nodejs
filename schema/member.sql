@@ -1,0 +1,6 @@
+CREATE TABLE `member` (
+    `id` INT AUTO_INCREMENT PRIMARY KEY,
+    `login_id` VARCHAR(200) NOT NULL,
+    `password` VARCHAR(60) NOT NULL,
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP
+);
